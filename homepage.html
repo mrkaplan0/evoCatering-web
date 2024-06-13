@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo Catering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="bg-image"></div>
+        <div class="bg-content"></div>
+        <div class="content">
+            <div> <img src="images/logo.png" alt="logo" class="logo"></div>
+            <div>
+                <h1>EVO</h1>
+                <h4>Your Catering Services...</h4>
+            </div>
+            <i id="menu-icon" class="fa-solid fa-bars"></i>
+        </div>
+        </div>
+        <div class="nav-items" id="navItems">
+            <ul>
+                <li>Home</li>
+                <li>Login</li>
+                <li>Our Concepts</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </header>
+
+    <br><br><br>
+
+
+    <main>
+
+        <h1>Business-Catering Solutions</h1>
+        <div id="cards">
+            <div class="col">
+                <div class="card-item">
+                    <section class="section-a">
+                        <img id="card-image" src="images/rice.jpg" alt="">
+                    </section>
+                    <section class="section-b">
+                        <h3>Events</h3>
+                        <ul>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                        <button class="card-btn">Read More</button>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-item">
+                    <section class="section-a">
+                        <img id="card-image" src="images/bohne.png" alt="">
+                    </section>
+                    <section class="section-b">
+                        <h3>Lunchs</h3>
+                        <ul>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                        <button class="card-btn">Read More</button>
+                    </section>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card-item">
+                    <section class="section-a">
+                        <img id="card-image" src="images/suschi.png" alt="">
+                    </section>
+                    <section class="section-b">
+                        <h3>Snacks</h3>
+                        <ul>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                        <button class="card-btn">Read More</button>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="about-us">
+            <h1 class="dd">About Us</h1>
+            <hr>
+            <h3 class="about-context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi cumque fuga nihil
+                eum ducimus, perferendis doloremque est quo fugit debitis? Eveniet at architecto ullam velit hic odit,
+                expedita quis laboriosam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, itaque
+                doloremque aliquid qui architecto voluptatem cum laudantium excepturi omnis commodi deserunt numquam
+                corporis maxime laboriosam quis, soluta a dolores quae?</h3>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+
+        $("#menu-icon").click(function () {
+            $("#navItems").toggleClass("toggle-display");
+            return false;
+        });
+    </script>
+</body>
+
+
+
+</html>
